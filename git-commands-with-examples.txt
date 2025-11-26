@@ -1,0 +1,75 @@
+# Common Git Commands with Examples
+
+1. Initialize a new Git repository:
+   git init
+
+2. Clone an existing repository:
+   git clone https://github.com/user/repository.git
+
+3. Check the status of tracked and untracked files:
+   git status
+
+4. Add a file to the staging area:
+   git add filename.txt
+
+5. Add all files to the staging area:
+   git add .
+
+6. Commit changes with a message:
+   git commit -m "Initial commit"
+
+7. View commit history:
+   git log
+
+8. Check remote repository:
+   git remote -v
+
+9. Push changes to the remote repository:
+   git push origin main
+
+10. Pull changes from the remote repository:
+    git pull origin main
+
+11. Create a new branch:
+    git branch new-feature
+
+12. Switch to another branch:
+    git checkout new-feature
+
+13. Create and switch to a new branch:
+    git checkout -b feature-xyz
+
+14. Merge two branches:
+    git checkout main
+    git merge new-feature
+
+15. Delete a branch:
+    git branch -d new-feature
+
+16. View all branches:
+    git branch
+
+17. Stash changes (temporarily save):
+    git stash
+
+18. Apply stashed changes:
+    git stash apply
+
+19. Show differences between files:
+    git diff
+
+20. Remove a file from the staging area:
+    git reset filename.txt
+
+21. Remove all files from the staging area:
+    git reset
+
+22. Remove a file from the repository and working directory:
+    git rm filename.txt
+
+23. View configuration:
+    git config --list
+
+24. Set user name and email:
+    git config --global user.name "Your Name"
+    git config --global user.email "youremail@example.com"
